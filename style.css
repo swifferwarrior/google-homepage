@@ -30,6 +30,23 @@ header a, footer a{
   display: inline-block;
 }
 
+.apps-icon {
+  display: inline-block;
+  height: 25px;
+  width: 25px;
+  vertical-align: middle;
+  background-image: url('https://cdn3.iconfinder.com/data/icons/navigation-and-settings/24/Material_icons-01-11-512.png' no-repeat);
+/*  z-index: 99;*/
+}
+
+/*.apps-icon:hover {*/
+/*  opacity: 0;*/
+/*  content: url("https://icon-library.net/images/google-apps-icon-png/google-apps-icon-png-27.jpghttps://icon-library.net/images/google-apps-icon-png/google-apps-icon-png-27.jpg") no-repeat;*/
+/*  text-decoration: none;*/
+/*  color: black;*/
+/*  z-index: 99;*/
+/*}*/
+
 /*** MIDDLE ***/
 
 html {
@@ -46,17 +63,26 @@ body {
 
 main {
   position: relative;
-  top: 100px;
+  top: 130px;
   text-align: center;
   vertical-align: middle;
   height: 100%;
+  width: 100%;
   min-height: 550px;
+}
+
+#logo {
+  margin: 10px auto;
+  position: relative;
+  display: block;
+/*  text-align: center;*/
 }
 
 .text-box {
   background-color: transparent;
   border: 0px;
   height: 100%;
+  width: 300px;
 /*  width: 387px;*/
   position: relative;
   float: left;
@@ -67,10 +93,10 @@ main {
 .search-box {
   display: block;
   position: relative;
-  height: 34px;
-  width: 387px;
+  height: 45px;
+  width: 500px;
   margin: 37px;
-  border: solid black 1px;
+  border: solid #DADADA 1px;
   border-radius: 30px;
 /*  text-align: center;*/
 /*  align-content: center;*/
@@ -80,7 +106,7 @@ main {
 }
 
 .search-box:hover {
-  box-shadow: black;
+  box-shadow: #DADADA;
 }
 
 .search-icon, .voice-search-icon {
@@ -100,11 +126,36 @@ main {
   height: 20px;
 }
 
+.button {
+  background-color: #F1F1F1;
+  box-shadow: none;
+  border: 0px;
+  height: 35px;
+  margin: 10px;
+  padding: 0px 15px;
+  color: #5F6368;
+  border-radius: 3px;
+}
+
+.button:hover {
+  border: 1px solid #DADADA;
+  margin: 9px;
+}
+
+main span {
+  margin: 10px; 
+}
+
 /*** BOTTOM ***/
 
 footer {
     position: absolute;
     bottom: 0px; 
+    background-color: #F1F1F1;
+    width: 100%;
+    border-top: 1px solid #DADADA;
+    padding: 0;
+    left: 0;
 }
 
 .bottom-right {
@@ -122,6 +173,10 @@ footer {
 }
 
 /*** LINKS ***/
+
+p a {
+  color: #1A0DB3;
+}
 
 a {
   color: black;
