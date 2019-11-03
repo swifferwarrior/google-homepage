@@ -12,14 +12,12 @@ header a, footer a{
 .top-left, .top-right , .bottom-left, .bottom-right{
   margin: auto;
   top: 0;
-/*  word-spacing: 20px;*/
   position: relative;
   padding: 15px;
   display: block; 
 }
 
 .top-right {
-/*  position: absolute;*/
   float: right;
   display: block;
   right: 0;
@@ -36,7 +34,6 @@ header a, footer a{
   width: 25px;
   vertical-align: middle;
   background-image: url('https://cdn3.iconfinder.com/data/icons/navigation-and-settings/24/Material_icons-01-11-512.png' no-repeat);
-/*  z-index: 99;*/
 }
 
 .login-icon {
@@ -49,20 +46,11 @@ header a, footer a{
   margin: 0;
 }
 
-/*.apps-icon:hover {*/
-/*  opacity: 0;*/
-/*  content: url("https://icon-library.net/images/google-apps-icon-png/google-apps-icon-png-27.jpghttps://icon-library.net/images/google-apps-icon-png/google-apps-icon-png-27.jpg") no-repeat;*/
-/*  text-decoration: none;*/
-/*  color: black;*/
-/*  z-index: 99;*/
-/*}*/
-
 /*** MIDDLE ***/
 
 html {
   width: 100%;
   min-height: 550px;
-/*  height: 100%;*/
   font-family: Arial, Helvetica, sans-serif;
   font-size: 13px; 
 }
@@ -80,14 +68,12 @@ main {
   vertical-align: middle;
   height: 100%;
   width: 100%;
-/*  min-height: 550px;*/
 }
 
 #logo {
   display: block;
   margin: 10px auto;
   position:relative;
-/*  height: 100px;*/
   text-align: center;
 }
 
@@ -96,11 +82,9 @@ main {
   border: 0px;
   height: 100%;
   width: 420px;
-/*  width: 387px;*/
   position: relative;
   float: left;
   padding: 0 10px;
-/*  vertical-align: middle;*/
 }
 
 .search-box {
@@ -111,8 +95,6 @@ main {
   margin: 37px;
   border: solid #DADADA 1px;
   border-radius: 30px;
-/*  text-align: center;*/
-/*  align-content: center;*/
   padding: 1px 10px 1px 10px;
   margin: 18px auto;
   background-color: transparent;
@@ -134,7 +116,6 @@ main {
 
 .voice-search-icon {
   float: right;
-/*  text-align: end;*/
   padding: 8px 5px;
   height: 20px;
 }
@@ -172,7 +153,6 @@ footer {
 }
 
 .bottom-right {
-/*  position: absolute;*/
   float: right;
   display: block;
   right: 0;
