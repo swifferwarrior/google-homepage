@@ -39,6 +39,14 @@ header a, footer a{
 /*  z-index: 99;*/
 }
 
+.login-icon {
+  display: inline-block;
+  height: 28px;
+  width: auto;
+  border-radius: 90px;
+  vertical-align: middle;
+}
+
 /*.apps-icon:hover {*/
 /*  opacity: 0;*/
 /*  content: url("https://icon-library.net/images/google-apps-icon-png/google-apps-icon-png-27.jpghttps://icon-library.net/images/google-apps-icon-png/google-apps-icon-png-27.jpg") no-repeat;*/
@@ -75,6 +83,7 @@ main {
   margin: 10px auto;
   position: relative;
   display: block;
+  height: 100px;
 /*  text-align: center;*/
 }
 
